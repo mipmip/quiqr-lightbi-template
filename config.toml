@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://mipmip.github.io/quiqr-lightbi-template/"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Lightbi"
