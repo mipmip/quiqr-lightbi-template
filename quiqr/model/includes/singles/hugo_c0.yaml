@@ -1,6 +1,6 @@
 key: hugo_c0
 title: 'Site Configuration'
-file: hugo.toml
+file: config.toml
 hidePreviewIcon: true
 fields:
   - key: baseURL
