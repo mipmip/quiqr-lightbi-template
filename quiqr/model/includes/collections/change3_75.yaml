@@ -1,0 +1,13 @@
+key: change3_75
+title: 'Notes'
+extension: md
+itemtitle: Item
+folder: content/notes/2020
+hidePreviewIcon: true
+fields:
+  - key: title
+    type: string
+  - key: mainContent
+    title: Main Content
+    type: markdown
+dataformat: yaml

@@ -1,0 +1,142 @@
+key: hugo_c0
+title: 'Site Configuration'
+file: hugo.toml
+hidePreviewIcon: true
+fields:
+  - key: baseURL
+    type: string
+  - key: DefaultContentLanguage
+    type: string
+  - key: languageCode
+    type: string
+  - key: title
+    type: string
+  - key: theme
+    type: string
+  - key: metaDataFormat
+    type: string
+  - key: pygmentsStyle
+    type: string
+  - key: pygmentsCodefencesGuessSyntax
+    type: boolean
+  - key: enableRobotsTXT
+    type: boolean
+  - key: enableGitInfo
+    type: boolean
+  - key: Paginate
+    type: number
+  - key: summaryLength
+    type: string
+  - key: Params
+    type: nest
+    groupdata: true
+    fields:
+      - key: selfHosted
+        type: boolean
+      - key: mainSections
+        type: leaf-array
+        field:
+          key: item
+          type: string
+      - key: dateFormat
+        type: string
+      - key: comments
+        type: boolean
+      - key: readingTime
+        type: boolean
+      - key: wordCount
+        type: boolean
+      - key: useHLJS
+        type: boolean
+      - key: socialShare
+        type: boolean
+      - key: delayDisqus
+        type: boolean
+      - key: showRelatedPosts
+        type: boolean
+      - key: summaryLength
+        type: string
+      - key: lunrSearch
+        type: boolean
+      - key: gcse
+        type: boolean
+      - key: lastmod
+        type: boolean
+      - key: rss
+        type: boolean
+      - key: pagination
+        type: string
+      - key: hideAuthor
+        type: boolean
+      - key: authorInfo
+        type: string
+      - key: description
+        type: string
+      - key: previewCardImagePlacement
+        type: string
+  - key: sitemap
+    type: nest
+    groupdata: true
+    fields:
+      - key: changefreq
+        type: string
+      - key: priority
+        type: number
+      - key: filename
+        type: string
+  - key: Author
+    type: nest
+    groupdata: true
+    fields:
+      - key: name
+        type: string
+      - key: website
+        type: string
+      - key: email
+        type: string
+      - key: facebook
+        type: string
+      - key: instagram
+        type: string
+      - key: youtube
+        type: string
+      - key: twitter
+        type: string
+      - key: linkedin
+        type: string
+      - key: github
+        type: string
+      - key: threads
+        type: string
+      - key: gitlab
+        type: string
+      - key: reddit
+        type: string
+      - key: stackoverflow
+        type: string
+      - key: snapchat
+        type: string
+      - key: spotify
+        type: string
+      - key: paypal
+        type: string
+      - key: telegram
+        type: string
+      - key: mastodon
+        type: string
+      - key: slack
+        type: string
+  - key: menu
+    type: nest
+    groupdata: true
+    fields:
+      - key: main
+        type: accordion
+        fields:
+          - key: name
+            type: string
+            arrayTitle: true
+          - key: url
+            type: string
+          - key: weight
+            type: number

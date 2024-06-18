@@ -1,0 +1,26 @@
+hugover = "extended_0.99.1"
+
+[[serve]]
+key = "default"
+config = "hugo.toml"
+
+[[build]]
+key = "default"
+config = "hugo.toml"
+
+[[singles]]
+key = "mainConfig"
+title = "Site Configuration"
+file = "hugo.toml"
+
+  [[singles.fields]]
+  key = "title"
+  title = "Site Title"
+  type = "string"
+  tip = "Your page title."
+
+  [[singles.fields]]
+  key = "baseURL"
+  title = "Base URL"
+  type = "string"
+  tip = "Your site URL."

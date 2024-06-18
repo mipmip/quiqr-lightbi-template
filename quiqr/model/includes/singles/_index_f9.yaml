@@ -1,0 +1,15 @@
+key: _index_f9
+title: 'About'
+file: content/about/_index.md
+hidePreviewIcon: true
+fields:
+  - key: type
+    type: string
+  - key: layout
+    type: string
+  - key: title
+    type: string
+  - key: mainContent
+    title: Main Content
+    type: markdown
+dataformat: yaml

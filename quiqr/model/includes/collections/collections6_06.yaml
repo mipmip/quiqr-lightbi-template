@@ -1,0 +1,24 @@
+key: collections6_06
+title: 'Collections'
+extension: md
+itemtitle: Item
+folder: content/collections/2023
+hidePreviewIcon: true
+fields:
+  - key: Title
+    type: string
+  - key: Subtitle
+    type: string
+  - key: Tags
+    type: leaf-array
+    field:
+      key: item
+      type: string
+  - key: image
+    type: string
+  - key: Description
+    type: string
+  - key: mainContent
+    title: Main Content
+    type: markdown
+dataformat: yaml

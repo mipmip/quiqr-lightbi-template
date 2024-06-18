@@ -1,0 +1,18 @@
+- key: _index_f9
+  title: Pages
+  menuItems:
+    - key: _index_f9
+
+- key: change3_75
+  title: Collections
+  menuItems:
+    - key: who-am-i_96
+    - key: collections6_06
+    - key: change3_75
+
+- key: hugo_c0
+  title: Settings
+  menuItems:
+    - key: hugo_c0
+
+

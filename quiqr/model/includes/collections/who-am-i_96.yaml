@@ -1,0 +1,22 @@
+key: who-am-i_96
+title: 'Blog Posts'
+extension: md
+itemtitle: Item
+folder: content/post/2020/jan
+hidePreviewIcon: true
+fields:
+  - key: title
+    type: string
+  - key: tags
+    type: leaf-array
+    field:
+      key: item
+      type: string
+  - key: image
+    type: string
+  - key: Description
+    type: string
+  - key: mainContent
+    title: Main Content
+    type: markdown
+dataformat: yaml
